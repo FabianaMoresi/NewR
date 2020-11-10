@@ -1,0 +1,71 @@
+---
+title: "Git Add-commit-push"
+author: "Fabiana"
+date: "10/11/2020"
+output: pdf_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Comandi Git add-commit-push 
+
+## comandi usanti da Davide per caricare i file su GitHub da local
+
+
+## pwd 
+### per sapere in che directory ci troviamo
+
+## cd
+### per muoverci tra le directory
+*Cd Desktop/learningR/exercise*
+### per dire che vogliamo andare nella directory "exercise"
+
+## git init
+### per inizializare la directory dove stiamo lavorando
+
+## git remote add "nome che decidiamo" URL GitHub
+### per collegare la repository di GitHub a local, sennò non sappiamo dove caricare i file che decidiamo di pushare
+
+## git status 
+### per effettivamente constatare che azioni sono state fatte ex. commit, or push
+### una volta deciso cosa caricare dobbiamo fare un add
+
+## git add. 
+### carichiamo TUTTO quello che abbiamo nella directory del nostro percorso
+
+## git add *example.md*
+### stiamo decidendo di caricare SOLO quel file
+
+## git commit -m "messagio promemoria" 
+### se non mettiamo il messaggio rischiamo di confonderci con tutte le versioni che carichiamo
+
+## git branch -M main 
+### per indicare che vogliamo pushare il nostro file sul branch principale
+
+## git push -u "nome che decidiamo" main 
+### per effettivamente caricare il file
+### se dovesse dare problemi per il branch possiamo scrivere *HEAD:main*
+
+
+# comandi plus 
+
+
+## ls 
+### per sapere che documenti ci sono/ cartelle nella directory che stiamo utilizzando
+
+## mkdir 
+### per creare una nuova cartella nella directory dove ci troviamo
+
+## echo 
+### per scrivere qualcosa in un file di testo "ciò che vogliamo scrivere" > nomefile.md
+
+## cat nomefile.md 
+### ci mostra cosa abbiamo scritto
+
+## rm-rf.git 
+### per rimuovere delle cartelle nascoste
+
